@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="style/ticTac.css" />
     <link rel="stylesheet" href="style/signUp.css" />
     <link rel="stylesheet" href="style/game.css" />
-    <link rel="stylesheet" href="style/score.css" />
     <link rel="stylesheet" href="style/popup.css" />
     <title>tic-tac-toe</title>
   </head>
@@ -36,11 +35,25 @@
         </section>
 
         <section class="game">
-          <img class="game__playingField" src="img/доска.svg" alt="" />
+          <div class="game__field">
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+            <div class="game__box"></div>
+          </div>
+          <span class="game__score"
+            >Счет:
+            <span class="game__numScore"></span>
+            <div class="game__backScore"></div>
+          </span>
+        </div>
           <div class="game__tools">
-            <button type="button" class="game__btnStart">
-              <span>Начать игру</span>
-            </button>
+            <button type="button" class="game__btnStart">Начать игру</button>
             <button type="button" class="game__btnReset">Сбросить игру</button>
 
             <!-- <div class="game__tools-ticTac">
@@ -49,12 +62,6 @@
             </div> -->
           </div>
         </section>
-        <span class="score"
-          >Счет:
-          <span class="score__num"></span>
-          <div class="score__back"></div>
-        </span>
-      </div>
 
       <section class="popup">
         <p class="popup__winner">

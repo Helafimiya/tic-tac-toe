@@ -28,5 +28,5 @@ input[type="text"] {
 }
 
 .signUp__inputName:focus {
-  outline: 2px solid var(--popupText);
+  outline: 2px solid var(--popupText-reserveText);
 }
