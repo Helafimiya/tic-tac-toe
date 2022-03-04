@@ -1,0 +1,12 @@
+:root {
+  --bodyBackground: #fff6f6;
+  --form-btn-popup-background: #fec6c6;
+  --text-gradient: linear-gradient(to right, #db00ff, #fe2580);
+  --text-rules-gradient: linear-gradient(to right, #ecd65a, #e3a376, #d96698);
+  --tic: #db00ff;
+  --tac: #fe2580;
+  --shadow: #a4a4a4;
+  --winLine: #fff626;
+  --scoreGradient: linear-gradient(to top, #fbf100, #ff00a8);
+  --popupText-reserveText: #ff00a8;
+}

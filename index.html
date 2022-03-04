@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="rus">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/colors.css" />
+    <link rel="stylesheet" href="style/body.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/wrapper.css" />
+    <link rel="stylesheet" href="style/ticTac.css" />
+    <link rel="stylesheet" href="style/signUp.css" />
+    <link rel="stylesheet" href="style/game.css" />
+    <link rel="stylesheet" href="style/score.css" />
+    <link rel="stylesheet" href="style/popup.css" />
+    <title>tic-tac-toe</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <section class="ticTac">
+          <p class="ticTac__rules">Правила вы знаете :)</p>
+          <img class="ticTac__logo" src="img/logo.svg" />
+        </section>
+        <section>
+          <form class="signUp">
+            <label>
+              <span class="signUp__name">ИгрОк:</span>
+              <input type="text" class="signUp__inputName" />
+            </label>
+            <label>
+              <span class="signUp__name">ИгроК:</span>
+              <input type="text" class="signUp__inputName" />
+            </label>
+          </form>
+        </section>
+
+        <section class="game">
+          <img class="game__playingField" src="img/доска.svg" alt="" />
+          <div class="game__tools">
+            <button type="button" class="game__btnStart">
+              <span>Начать игру</span>
+            </button>
+            <button type="button" class="game__btnReset">Сбросить игру</button>
+
+            <!-- <div class="game__tools-ticTac">
+              <img class="game__tools-tic" src="img/null.svg" alt="" />
+              <img class="game__tools-tac" src="img/X.svg" alt="" />
+            </div> -->
+          </div>
+        </section>
+        <span class="score"
+          >Счет:
+          <span class="score__num"></span>
+          <div class="score__back"></div>
+        </span>
+      </div>
+
+      <section class="popup">
+        <p class="popup__winner">
+          <span class="popup__name"></span> Выиграл(а)!
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

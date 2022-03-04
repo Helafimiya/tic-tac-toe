@@ -1,0 +1,27 @@
+.popup {
+  position: absolute;
+  left: 212px;
+  top: 310px;
+  transform: translateX(100vw);
+  overflow-x: hidden;
+  background: var(--form-btn-popup-background);
+  width: 320px;
+  height: 100px;
+  border: 1px solid var(--popupText-reserveText);
+  border-radius: 50px;
+}
+
+.popup__winner {
+  padding-top: 10px;
+  font-family: "Constantia", sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--popupText-reserveText);
+}
+
+.popup__name {
+  background: var(--scoreGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

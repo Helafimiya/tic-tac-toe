@@ -1,0 +1,66 @@
+.game {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.game__playingField {
+  width: 700px;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+.game__tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.game__btnStart,
+.game__btnReset {
+  width: 200px;
+  height: 34px;
+  border: 0;
+  border-radius: 16px;
+  font-family: "Constantia", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: var(--form-btn-popup-background);
+  color: #fff;
+  appearance: none;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.game__btnStart:hover,
+.game__btnReset:hover {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game__btnStart:active,
+.game__btnReset:active {
+  background: var(--scoreGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .game__tools-ticTac {
+  display: flex;
+  justify-content: space-around;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.game__tools-tic {
+  width: 60px;
+  height: 60px;
+}
+
+.game__tools-tac {
+  height: 60px;
+} */

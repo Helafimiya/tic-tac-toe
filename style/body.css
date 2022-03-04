@@ -1,0 +1,27 @@
+/* @import "../node_modules/normalize.css/normalize.css"; */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 700px;
+  height: 600px;
+  margin-left: 25%;
+
+  font-family: "Segoe", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+
+  background-color: var(--bodyBackground);
+
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body *,
+*::after,
+*::before {
+  box-sizing: inherit;
+}

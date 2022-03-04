@@ -1,0 +1,32 @@
+.signUp {
+  display: grid;
+  gap: 10px;
+  width: 300px;
+}
+
+.signUp__name {
+  font-family: "Constantia", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input[type="text"] {
+  font-family: inherit; /* 1 */
+  font-size: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+}
+
+.signUp__inputName {
+  margin-left: 26px;
+  border: none;
+  border-radius: 12px;
+  color: var(--popupText);
+  background-color: var(--form-btn-popup-background);
+}
+
+.signUp__inputName:focus {
+  outline: 2px solid var(--popupText);
+}

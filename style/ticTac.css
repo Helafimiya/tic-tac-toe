@@ -1,0 +1,18 @@
+.ticTac {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.ticTac__rules {
+  font-family: "Constantia", sans-serif;
+  font-size: 18px;
+  background: var(--text-rules-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ticTac__logo {
+  width: 140px;
+}
